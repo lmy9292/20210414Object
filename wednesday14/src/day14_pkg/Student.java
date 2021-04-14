@@ -41,10 +41,22 @@ public class Student {
 		int num=10;//정수형 변수
 		return num;//num변수가 가진 값을 리턴해줌
 	}
+	/*
+	 * String:리턴되는 값이 String
+	 * 메소드이름:stringMethod
+	 * 매개변수:없음
+	 */
+	String stringMethod() {
+		String val="리턴값";
+		return val;
+	}
 	
-	
-	
-	
+	//매개변수가 있는 메소드
+	int numberMethod2(int num1) {
+		int num2 =10;
+		int sum = num1+num2;
+		return sum;
+	}
 }	
 		
 	

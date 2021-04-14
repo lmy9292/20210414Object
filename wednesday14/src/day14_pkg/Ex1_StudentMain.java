@@ -39,6 +39,20 @@ public class Ex1_StudentMain {
 		System.out.println(aa);//메소드호출후
 		
 		System.out.println(stu2.numberMethod());
+		
+		System.out.println("String 메소드호출");
+		System.out.println(stu3.stringMethod());
+		
+		String bb= stu3.stringMethod();
+		System.out.println(bb);
+		
+		Student stu4 =new Student();
+		int cc=stu4.numberMethod2(30);
+		System.out.println(cc);
+		
+		int number1 =50;
+		cc=stu4.numberMethod2(number1);
+		System.out.println(cc);
 	}
 
 }
